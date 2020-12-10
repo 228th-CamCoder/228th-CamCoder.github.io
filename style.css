@@ -138,54 +138,15 @@ header a:hover{
     text-shadow: 1px 1px 2px #11654f;
 }
 
-/* First Table... */
-#tab-col-main{
-    margin: auto;
-    border-collapse: collapse;
-    font-size: 20px;
-    min-width: 400px;
-    font-weight: bold;
-}
-
-#tab-col-main tr th{
-    background-color: #003381;
-    color: #f1f1f1;
-}
-
-#tab-col-main tr td{
+/* Audio... */
+audio{
+    width: 450px;
+    color: #0000ff;
+    transform: scale(1.05);
     text-align: center;
-    border-bottom: 1px solid #080808;
+    /*box-shadow: 1px 2px 3px #000;*/
+    border-radius: 50px;
 }
-
-#tab-col-main th, #tab-col-main td{
-    padding: 11px 14px;
-}
-
-/* Second Table... */
-/*
-#tab-col-sec{
-    margin: auto;
-    border-collapse: collapse;
-    font-size: 20px;
-    min-width: 400px;
-    font-weight: bold;
-    float: right;
-}
-caption{
-    text-decoration: underline;
-}
-#tab-col-sec tr th{
-    background-color: #af0000;
-    color: #f1f1f1;
-}
-#tab-col-sec tr td{
-    text-align: center;
-    border-bottom: 1px solid #080808;
-}
-#tab-col-sec th, #tab-col-sec td{
-    padding: 11px 14px;
-}
-*/
 
 .dark-bt{
     border-bottom: 5px solid coral;
