@@ -23,7 +23,7 @@ body{
     font-weight: bold;
 }
 
-h3, h4, p{
+h2, h3, h4, p{
     text-shadow: 1px 1px 1px #000;
 }
 
