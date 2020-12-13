@@ -92,9 +92,9 @@ header a:hover{
 
 /* Starter... */
 #starter{
-    min-height: 300px;
+    min-height: 500px;
     text-align: center;
-    background: url('https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.dca-architects.com%2Fsites%2Fdcaarchitects.dd%2Ffiles%2Fproject%2Fphotos%2Fmapletree-business-city-ii-714-shma-comtech-133-edited.jpg&f=1&nofb=1') no-repeat 60px 0;
+    background: url('https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.dca-architects.com%2Fsites%2Fdcaarchitects.dd%2Ffiles%2Fproject%2Fphotos%2Fmapletree-business-city-ii-714-shma-comtech-133-edited.jpg&f=1&nofb=1') no-repeat 67px 0;
     color: #fff;
 }
 
