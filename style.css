@@ -220,13 +220,17 @@ footer{
         text-align: center;
         width: 100%;
     }
+    
+    .containerAudio audio{
+        width: 90%;
+    }
 
     header{
         padding-bottom: 20px;
     }
 
     #steamLogo, #epicLogo, #eaLogo, #mojangLogo, #starter, #interest, #about{
-        margin: 40px;
+        margin: 20px;
     }
 }
 
