@@ -212,7 +212,7 @@ footer{
     header nav,
     header nav li,
     #info-boxes .info-box,
-    table #tab-main-col,
+    .containerAudio audio,
     article#main-col,
     aside#side-col,
     aside{
@@ -225,7 +225,8 @@ footer{
         padding-bottom: 20px;
     }
 
-    #starter, #interest, #about{
+    #steamLogo, #epicLogo, #eaLogo, #mojangLogo, #starter, #interest, #about{
         margin: 40px;
     }
 }
+
