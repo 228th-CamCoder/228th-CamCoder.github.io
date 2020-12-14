@@ -154,22 +154,27 @@ audio{
 }
 
 /* Gaming images... */
-#epicLogo{
+#epicLogo, #steamLogo, #eaLogo, #mojangLogo{
     height: 125px;
-    margin-right: 50px;
+    margin-right: 40px;
 }
 
-#steamLogo{
+#rockstarLogo{
     height: 125px;
-    margin-right: 50px;
 }
 
-#eaLogo{
+/* Programming images... */
+#javaLogo, #pyLogo, #cppLogo{
     height: 125px;
-    margin-right: 50px;
+    margin-right: 40px;
 }
 
-#mojangLogo{
+#csLogo{
+    height: 133px;
+    margin-right: 40px;
+}
+
+#jsLogo{
     height: 125px;
 }
 
@@ -212,7 +217,6 @@ footer{
     header nav,
     header nav li,
     #info-boxes .info-box,
-    .containerAudio audio,
     article#main-col,
     aside#side-col,
     aside{
@@ -220,7 +224,7 @@ footer{
         text-align: center;
         width: 100%;
     }
-    
+
     .containerAudio audio{
         width: 90%;
     }
@@ -229,7 +233,11 @@ footer{
         padding-bottom: 20px;
     }
 
-    #steamLogo, #epicLogo, #eaLogo, #mojangLogo, #starter, #interest, #about{
+    #steamLogo, #epicLogo, #eaLogo, #mojangLogo, #rockstarLogo, #starter, #interest, #about{
+        margin: 20px;
+    }
+
+    #javaLogo, #pyLogo, #csLogo, #cppLogo, #jsLogo{
         margin: 20px;
     }
 }
