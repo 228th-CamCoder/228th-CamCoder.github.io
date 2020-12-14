@@ -23,7 +23,7 @@ body{
     font-weight: bold;
 }
 
-h2, h3, h4, p{
+h3, h4, p{
     text-shadow: 1px 1px 1px #000;
 }
 
@@ -124,7 +124,6 @@ header a:hover{
 
 .info-box img{
     height: 125px;
-    filter: drop-shadow(1px 1px 0.5px #000);
 }
 
 .info-box .start-words{
@@ -152,6 +151,27 @@ audio{
     text-align: center;
     box-shadow: 1px 2px 3px #000;
     border-radius: 50px;
+    border: 3px solid #00115f;
+}
+
+/* Gaming images... */
+#epicLogo{
+    height: 125px;
+    margin-right: 50px;
+}
+
+#steamLogo{
+    height: 125px;
+    margin-right: 50px;
+}
+
+#eaLogo{
+    height: 125px;
+    margin-right: 50px;
+}
+
+#mojangLogo{
+    height: 125px;
 }
 
 .dark-bt{
