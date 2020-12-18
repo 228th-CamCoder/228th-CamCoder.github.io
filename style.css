@@ -70,7 +70,7 @@ header nav{
 header li{
     float: left;
     display: inline;
-    padding: 0 10px 0 10px;
+    padding: 0 15px;
 }
 
 header a{
@@ -84,17 +84,22 @@ header a{
 }
 
 header a:hover{
-    color: blue;
-    font-weight: bold;
-
+    color: #0000ff;
+    font-weight: bolder;
 }
 
+/* Sections... */
 /* Starter... */
 #starter{
     min-height: 500px;
-    text-align: center;
+    text-align: justify;
     background: url('https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.dca-architects.com%2Fsites%2Fdcaarchitects.dd%2Ffiles%2Fproject%2Fphotos%2Fmapletree-business-city-ii-714-shma-comtech-133-edited.jpg&f=1&nofb=1') no-repeat 67px 0;
     color: #fff;
+}
+
+#starter h1{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.25);
 }
 
 /* Interest... */
@@ -103,15 +108,35 @@ header a:hover{
     text-align: center; 
 }
 
+#interest h1{
+    background-color: rgba(125, 125, 125, 0.25);
+}
+
+#interest p{
+    text-align: justify;
+}
+
 /* About... */
 #about{
     min-height: 300px;
     text-align: center; 
 }
 
+#about h1{
+    background-color: rgba(125, 125, 125, 0.25);
+}
+
+#about p{
+    text-align: justify;
+}
+
 /* Info Boxes... */
 #info-boxes{
     margin-top: 15px;
+}
+
+#info-boxes p{
+    text-align: justify;
 }
 
 #info-boxes .info-box{
@@ -241,4 +266,3 @@ footer{
         margin: 20px;
     }
 }
-
